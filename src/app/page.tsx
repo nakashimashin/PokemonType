@@ -69,6 +69,7 @@ export default function Home(){
     };
     const image = await fetchPokemonImage();
     setPokemonImageUrl(image['sprites']['front_default'])
+  }
 
 
   return(
@@ -107,5 +108,4 @@ export default function Home(){
       </div>
     </div>
   );
-};
-
+}
